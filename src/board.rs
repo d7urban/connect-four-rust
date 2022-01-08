@@ -68,7 +68,7 @@ impl Direction2D {
     fn downright() -> Direction2D {
         Direction2D {
             x: INCREASING,
-            y: INCREASING,
+            y: DECREASING,
         }
     }
 }
